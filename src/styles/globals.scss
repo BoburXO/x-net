@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+// html,
+// body {
+//   max-width: 100vw;
+//   min-height: 100vh;
+//   // overflow-x: hidden;
+// }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  position: unset !important;
+}
+
+.slick-slide div {
+  outline: none !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #11111f !important;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #11111f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #11111f;
+}
+
+.loading {
+  text-align: center;
+  font-size: 32px;
+  color: #11111f;
+  padding: 100px 0;
+}
+
+@media all and (max-width: 600px) {
+  .loading {
+    text-align: center;
+    font-size: 24px;
+    color: #11111f;
+    padding: 100px 0;
+  }
+}

@@ -1,0 +1,246 @@
+.new_products {
+  padding-bottom: 30px;
+
+  h1 {
+    color: #11111f;
+    font-size: 28px;
+    padding-bottom: 30px;
+  }
+}
+
+.container {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.new_prod_btn {
+  width: 80px !important;
+  height: 25px !important;
+  background-color: #1ebc0a !important;
+  color: #fff !important;
+  border: 2px solid #1ebc0a !important;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.new_products_parent {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  gap: 20px;
+  padding-bottom: 25px;
+}
+
+.new_products_card {
+  min-width: 300px !important;
+  padding: 10px;
+  border: #838384 1px solid;
+  border-radius: 6px;
+
+  h4 {
+    min-height: 60px;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  p {
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #838384;
+    margin: 10px 0;
+  }
+
+  img {
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: contain !important;
+  }
+
+  span {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    b {
+      font-size: 16px;
+    }
+
+    h6 {
+      text-decoration: line-through;
+      color: red;
+      font-size: 16px;
+    }
+  }
+}
+
+.all_sales {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+
+  button {
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    border: 2px solid #11111f;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:active {
+      background-color: #11111f;
+      color: #fff;
+    }
+  }
+}
+
+@media all and (max-width: 781px) {
+  .new_products_card {
+    min-width: 250px !important;
+    padding: 10px;
+    border: #838384 1px solid;
+    // margin-bottom: 15px;
+    // margin-left: 10px;
+    border-radius: 6px;
+
+    h4 {
+      min-height: 60px;
+      font-size: 16px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    p {
+      font-size: 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: #838384;
+      margin: 10px 0;
+    }
+
+    img {
+      width: 100% !important;
+      height: 220px !important;
+      object-fit: contain !important;
+    }
+
+    span {
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: center;
+
+      b {
+        font-size: 14px;
+      }
+    }
+
+    h6 {
+      text-decoration: line-through;
+      color: red;
+      font-size: 14px !important;
+    }
+  }
+}
+
+@media all and (max-width: 545px) {
+  .all_sales {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    button {
+      width: 150px;
+      height: 30px;
+      background-color: #fff;
+      border: 2px solid #11111f;
+      border-radius: 6px;
+      font-size: 12px;
+      cursor: pointer;
+
+      &:active {
+        background-color: #11111f;
+        color: #fff;
+      }
+    }
+  }
+
+  .new_products {
+    padding-bottom: 20px;
+
+    h1 {
+      color: #11111f;
+      font-size: 20px;
+      padding-bottom: 20px;
+    }
+  }
+
+  .new_products_card {
+    min-width: 200px !important;
+    padding: 6px;
+    border: #838384 1px solid;
+    // margin-bottom: 15px;
+    // margin-left: 10px;
+    border-radius: 6px;
+
+    h4 {
+      min-height: 45px;
+      font-size: 12px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    p {
+      font-size: 10px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: #838384;
+      margin: 10px 0;
+    }
+
+    img {
+      width: 100% !important;
+      height: 170px !important;
+      object-fit: contain !important;
+    }
+
+    span {
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: center;
+
+      b {
+        font-size: 11px;
+      }
+    }
+
+    h6 {
+      text-decoration: line-through;
+      color: red;
+      font-size: 11px !important;
+    }
+  }
+}

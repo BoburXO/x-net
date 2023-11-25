@@ -1,0 +1,107 @@
+.sub_cat_banner_main {
+  padding-top: 40px;
+}
+
+.container {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.sub_cat_banner_parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  .sub_cat_banner_card {
+    padding: 10px;
+    border-radius: 12px;
+    -webkit-box-shadow: 2px 4px 16px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 2px 4px 16px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 2px 4px 16px 0px rgba(34, 60, 80, 0.2);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 100% !important;
+      height: 100px !important;
+      object-fit: contain;
+    }
+    p {
+      padding-top: 5px;
+      font-size: 15px;
+      max-width: 150px;
+      text-align: center;
+    }
+  }
+}
+
+@media all and (max-width: 1060px) {
+  .sub_cat_banner_main {
+    padding-top: 0;
+  }
+  .sub_cat_banner_parent {
+    padding: 30px 10px;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    .sub_cat_banner_card {
+      width: 200px !important;
+      padding: 10px;
+      border-radius: 12px;
+      -webkit-box-shadow: 2px 4px 16px 0px rgba(34, 60, 80, 0.2);
+      -moz-box-shadow: 2px 4px 16px 0px rgba(34, 60, 80, 0.2);
+      box-shadow: 2px 4px 16px 0px rgba(34, 60, 80, 0.2);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 200px !important;
+        height: 100px !important;
+        object-fit: contain;
+      }
+      p {
+        padding-top: 5px;
+        font-size: 15px;
+        max-width: 150px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 700px) {
+  .sub_cat_banner_main {
+    padding-top: 0;
+  }
+  .sub_cat_banner_parent {
+    padding: 30px 0;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    .sub_cat_banner_card {
+      width: 160px !important;
+      padding: 10px;
+      border-radius: 12px;
+      -webkit-box-shadow: 2px 4px 16px 0px rgba(34, 60, 80, 0.2);
+      -moz-box-shadow: 2px 4px 16px 0px rgba(34, 60, 80, 0.2);
+      box-shadow: 2px 4px 16px 0px rgba(34, 60, 80, 0.2);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 160px !important;
+        height: 100px !important;
+        object-fit: contain;
+      }
+      p {
+        padding-top: 5px;
+        font-size: 15px;
+        max-width: 150px;
+      }
+    }
+  }
+}
